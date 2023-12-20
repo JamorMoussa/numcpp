@@ -1,2 +1,0 @@
-/usr/bin/ar qc libnumcpp.a CMakeFiles/numcpp.dir/numcpp/base/ndarray.cpp.o CMakeFiles/numcpp.dir/numcpp/numcpp.cpp.o
-/usr/bin/ranlib libnumcpp.a
