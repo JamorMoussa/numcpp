@@ -7,15 +7,15 @@
 namespace ncpp{
 
     template <typename NDType>
-    class NDarray{
+    class NDArray{
         private:
             NDType* data;
             int size;
             int endIndex = 0;
 
         public:
-            NDarray(int size);
-            //~NDarray();
+            NDArray(int size);
+            ~NDArray();
             void append(NDType elm);
             void display();
 
